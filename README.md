@@ -24,3 +24,5 @@ A python script to discover all sub domains of any domain
 [+] Discovered > http://apt.cytomate.net
 [+] Discovered > http://c3.cytomate.net
 ```
+## Note
+You have to install the python package Request using `pip install requests`
