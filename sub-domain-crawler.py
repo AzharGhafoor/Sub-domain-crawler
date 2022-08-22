@@ -14,10 +14,13 @@ with open("words_list.txt", "r") as words:
         test_url = "http://"+word.strip()+"."+url
         
         response = url_test(test_url)
-        if(response):
-            print("[+] Discovered >",test_url)
-            discovered_subdomains.append(test_url)
-        else:
+        try:
+            if(response.status_code == 200):
+                print("[+] Discovered >",test_url)
+                discovered_subdomains.append(test_url)
+            else:
+                pass
+        except:
             pass
         
 print(discovered_subdomains) # to see all discovered sub domains
