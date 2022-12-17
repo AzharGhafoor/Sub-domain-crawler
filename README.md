@@ -14,15 +14,15 @@ A python script to discover all sub domains of any domain
 
 ## output
 ```
-[+] Discovered > http://www.cytomate.net
-[+] Discovered > http://mail.cytomate.net
-[+] Discovered > http://autodiscover.cytomate.net
-[+] Discovered > http://dev.cytomate.net
+[+] Discovered > http://www.company.com
+[+] Discovered > http://mail.company.com
+[+] Discovered > http://autodiscover.company.com
+[+] Discovered > http://dev.company.com
                     ....
-[+] Discovered > http://support.cytomate.net
-[+] Discovered > http://c2.cytomate.net
-[+] Discovered > http://apt.cytomate.net
-[+] Discovered > http://c3.cytomate.net
+[+] Discovered > http://support.company.com
+[+] Discovered > http://c2.company.com
+[+] Discovered > http://apt.company.com
+[+] Discovered > http://c3.company.com
 ```
 ## Note
 You have to install the python package Request using `pip install requests`
