@@ -1,7 +1,7 @@
 import requests
 
 discovered_subdomains = []
-url = 'cytomate.net' # main domain
+url = 'company.com' # main domain
 
 def url_test(url):
     try:
